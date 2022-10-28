@@ -1,0 +1,23 @@
+{
+  "name": "redistest",
+  "version": "1.0.0",
+  "description": "Redis 공부 비슷한 무언가 용도의 리포",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notdevblue/RedisTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notdevblue/RedisTest/issues"
+  },
+  "homepage": "https://github.com/notdevblue/RedisTest#readme",
+  "dependencies": {
+    "redis": "^4.3.1"
+  }
+}
