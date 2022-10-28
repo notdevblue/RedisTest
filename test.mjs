@@ -7,4 +7,4 @@ client.on("error", err => {
 
 await client.connect();
 const value = await client.get("Linux");
-console.log(values);
+console.log(value);
