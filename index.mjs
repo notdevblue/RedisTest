@@ -1,4 +1,4 @@
-const { createClient } = require('redis');
+import { createClient } from 'redis';
 const client = createClient();
 
 client.on("error", err => {
@@ -6,5 +6,4 @@ client.on("error", err => {
 });
 
 await client.connect();
-const value = await client.get("Linux");
-console.log(values);
+await client.set("Linux", "Gentoo");
